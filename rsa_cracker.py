@@ -5,7 +5,7 @@ def main():
     print(crackRsaPrivateKey(7, 33))
 
 def crackRsaPrivateKey(e, n):
-    """Given an RSA private key, return the private exponent."""
+    """Given an RSA public key, return the private exponent."""
     factorsOfN = factorint(n)
 
     # since n is the product of two primes, we know its only factors are those two primes
