@@ -4,8 +4,8 @@ from test_rsa import test_rsa
 def main():
     """
     Displays the results of the test cases using the following format.
-    If the expected d value is unknown, displays "Expected: Unknown".
-    If the key is too large for the brute-force algorithm, instead of displaying the time, displays "Could not crack the key using brute force.".
+    If the expected d value is unknown, it displays "Expected: Unknown".
+    If the key is too large for the brute-force algorithm, instead of displaying the time, it displays "Could not crack the key using brute force.".
 
     ************************ Test Case 1 - 6 bits ************************
 
@@ -30,9 +30,8 @@ def main():
 
     ************************ Test Case 2 - 6 bits ************************
                                     ...
-
                                     ...
-
+                                    ...
 
     ************************ Test Case 10 - 89 bits ************************
 
